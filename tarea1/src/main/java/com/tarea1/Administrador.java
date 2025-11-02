@@ -1,8 +1,5 @@
 package com.tarea1;
-<<<<<<< HEAD
-=======
 
->>>>>>> dfed254f9bf7c4d2247af713ca706928c0c75111
 import java.util.List;
 
 public class Administrador {
@@ -19,8 +16,7 @@ public class Administrador {
     public void gestionarReglasPuntuacion(){
         
     }
-<<<<<<< HEAD
 }
-=======
+
 }
->>>>>>> dfed254f9bf7c4d2247af713ca706928c0c75111
+
