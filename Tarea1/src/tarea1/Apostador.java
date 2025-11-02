@@ -2,6 +2,8 @@ package tarea1;
 public class Apostador extends Usuario {
     private int saldoPuntos;
     private int ranking;
+    List<Estadistica> estadisticas;
+
 
     public Apostador(String idUsuario, String nombre, String email) {
         super(idUsuario, nombre, email);
