@@ -10,6 +10,4 @@ public public class Administrador extends Usuario {
 
     public void configurarEvento() {
     }
-} {
-    
 }
