@@ -11,18 +11,11 @@ public class Apostador extends Usuario {
         this.pronosticos = new ArrayList<>();
     }
 
-    public Pronostico realizarPronostico(Evento evento, ICategoriaPronostico categoria, String valorPredicho) {
-        if (evento.estaAbierto() && categoria.validar(valorPredicho)) {
-            Pronostico p = new Pronostico(this, evento, categoria, valorPredicho);
-            this.pronosticos.add(p);
-            return p;
-        }
-        return null;
+    public Pronostico realizarPronostico() {
+
     }
 
-    public void canjearPuntos(Premio premio) {
-        if (this.saldoPuntos >= premio.getCostoPuntos()) {
-            this.saldoPuntos -= premio.getCostoPuntos();
-        }
+    public void canjearPuntos() {
+        
     }
 }
